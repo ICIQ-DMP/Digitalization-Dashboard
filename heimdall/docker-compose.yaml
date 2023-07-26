@@ -1,0 +1,15 @@
+---
+version: "2.1"
+services:
+  heimdall:
+    image: linuxserver/heimdall:development-version-df70dcc5
+    container_name: heimdall
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /home/amarine/heimdall/config:/config
+    ports:
+      - 1080:80
+    restart: unless-stopped
