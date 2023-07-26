@@ -9,7 +9,7 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - /home/amarine/heimdall/config:/config
+      - /home/amarine/Digitalization-Dashboard/heimdall/config:/config
     ports:
       - 1080:80
     restart: unless-stopped
