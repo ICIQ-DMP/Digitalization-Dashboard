@@ -351,3 +351,4 @@ MigrationBackup/
 
 heimdall/config.bak
 .idea/
+config/log

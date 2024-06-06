@@ -13,3 +13,5 @@ services:
     ports:
       - 1080:80
     restart: unless-stopped
+    volumes:
+      - ./config:/config
