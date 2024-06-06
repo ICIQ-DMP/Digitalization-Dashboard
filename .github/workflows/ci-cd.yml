@@ -1,8 +1,10 @@
 name: ci-cd
 
-# Trigger event on every push / delete event, only in master branch
+# Trigger event on every push event, only in master branch
 on:
   push:
+    branches:
+      - "master"
 
 jobs:
   build:
