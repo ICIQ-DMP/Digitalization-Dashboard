@@ -3,6 +3,7 @@ version: "2.1"
 services:
   heimdall:
     image: aleixmt/digitalization-dashboard:latest
+    container_name: heimdall
     build:
       context: .
       dockerfile: Dockerfile
