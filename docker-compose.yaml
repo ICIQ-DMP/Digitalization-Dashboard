@@ -7,11 +7,11 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=1015
+      - PGID=1015
       - TZ=Europe/London
     ports:
-      - 1080:80
+      - "0.0.0.0:80:80"
     restart: unless-stopped
     volumes:
       - ./config:/config
