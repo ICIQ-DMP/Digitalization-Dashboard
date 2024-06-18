@@ -8,8 +8,6 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      #- PUID=1001
-      #- PGID=1001
       - TZ=Europe/London
     ports:
       - "0.0.0.0:80:80"
