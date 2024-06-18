@@ -10,7 +10,7 @@
 [![Docker size image][docker-size-shield]][docker-size-url]
 [![Repository size][repo-size-shield]][repo-size-url]
 [![Documentation web site][website-documentation-shield]][website-documentation-url]
-[![eChempad web site][website-echempad-shield]][website-echempad-url]
+[![eChempad web site][website-dashboard-shield]][website-dashboard-url]
 [![CD pipeline][CD-pipeline-shield]][CD-pipeline-url]
 [![Code Coverage][coverage-shield]][coverage-url]
 
@@ -28,8 +28,7 @@
 <h3 align="center">eChempad</h3> -->
 
   <p align="center">
-    An open-source web application to manage the entire
-data life-cycle of experiments and assays from Experimental Chemistry and related Science disciplines.
+    An open-source web dashboard for all the digitalization tools at ICIQ.
     <br />
     <a href="https://iciq-dmp.github.io/"><strong>Explore the docs »</strong></a>
     <br />
@@ -107,15 +106,14 @@ To know more about other digitalization services at ICIQ, you can check the
 
 This section lists any major frameworks/libraries used to bootstrap the eChempad platform:
 
-* [![Bootstrap][Bootstrap-shield]][Bootstrap-url]
 * [![JQuery][JQuery-shield]][JQuery-url]
-* [![PostgreSQL][postgres-shield]][postgres-url]
-* [![Java][java-shield]][java-url]
-* [![Spring Boot][springboot-shield]][springboot-url]
-* [![Spring Framework][spring-shield]][spring-url]
-* [![ZK][zk-shield]][zk-url]
-* [![Hibernate][hibernate-shield]][hibernate-url]
-* [![Jackson][jackson-shield]][jackson-url]
+* [![Git][git-shield]][git-url]
+* [![Bash][bash-shield]][bash-url]
+* [![SQLite][sqlite-shield]][sqlite-url]
+* [![Font Awesome][fontawesome-shield]][fontawesome-url]
+* [![Docker][docker-shield]][docker-url]
+* [![GitHub Actions][github-shield]][github-url]
+* [![Codacy][codacy-shield]][codacy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -382,60 +380,51 @@ from [*Ministerio de Ciencia e Innovación*](https://www.ciencia.gob.es/) from t
 [forks-shield]: https://img.shields.io/github/forks/ICIQ-DMP/Digitalization-Dashboard.svg?style=for-the-badge&label=Fork&maxAge=2592000
 [forks-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/network/members
 [license-shield]: https://img.shields.io/github/license/ICIQ-DMP/Digitalization-Dashboard?style=flat-square&color=darkgreen&logo=gnu
-[license-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/blob/master/LICENSE.md
-[product-screenshot]: .github/images/home_full-screenshot.png
+[license-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/blob/master/LICENSE
+[product-screenshot]: .github/images/screenshot.png
+
 [login-screenshot]: .github/images/login-screenshot.png
 [home-empty-screenshot]: .github/images/home_empty-screenshot.png
 
 [language-shield]: https://img.shields.io/github/languages/top/ICIQ-DMP/Digitalization-Dashboard?style=flat-square&color=yellow&logo=oracle
 [language-url]: https://www.java.com/es/
-[loc-shield]: https://img.shields.io/tokei/lines/github/ICIQ-DMP/Digitalization-Dashboard
+[loc-shield]: https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/ICIQ-DMP/Digitalization-Dashboard/badge&style=flat-square&logoColor=white&label=Lines%20of%20Code
 [loc-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard
-[commit-shield]: https://img.shields.io/github/last-commit/ICIQ-DMP/Digitalization-Dashboard/develop?style=flat-square&logo=github
+[commit-shield]: https://img.shields.io/github/last-commit/ICIQ-DMP/Digitalization-Dashboard/master?style=flat-square&logo=github
 [commit-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/issues
 [activity-shield]: https://img.shields.io/github/commit-activity/y/ICIQ-DMP/Digitalization-Dashboard?style=flat-square&color=black&logo=github
 [activity-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/graphs/commit-activity
-[docker-size-shield]: https://img.shields.io/docker/image-size/aleixmt/echempad/latest?style=flat-square&color=purple&logo=docker
-[docker-size-url]: https://hub.docker.com/r/aleixmt/echempad
+[docker-size-shield]: https://img.shields.io/docker/image-size/aleixmt/digitalization-dashboard/latest?style=flat-square&color=purple&logo=docker
+[docker-size-url]: https://hub.docker.com/r/aleixmt/digitalization-dashboard
 [repo-size-shield]: https://img.shields.io/github/repo-size/ICIQ-DMP/Digitalization-Dashboard?style=flat-square&logo=github
 [repo-size-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard
 [language-count-shield]: https://img.shields.io/github/languages/count/ICIQ-DMP/Digitalization-Dashboard?style=flat-square&color=red&logo=github
 [language-count-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard
 [website-documentation-shield]: https://img.shields.io/website?url=https%3A%2F%2Ficiq-dmp.github.io%2F&style=flat-square&logo=jekyll&label=Digitalization%20documentation%20website
 [website-documentation-url]: https://iciq-dmp.github.io/
-[website-echempad-shield]: https://img.shields.io/website?url=https%3A%2F%2Fechempad.iciq.cat%2Flogin&style=flat-square&logo=icinga&label=eChempad%20website
-[website-echempad-url]: https://echempad.iciq.cat
-[CD-pipeline-shield]: https://img.shields.io/github/actions/workflow/status/aleixmt/echempad/docker-image.yml?style=flat-square&logo=docker&label=CD%20pipeline
-[CD-pipeline-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/actions/workflows/docker-image.yml
-[coverage-shield]: https://img.shields.io/codecov/c/github/aleixmt/echempad/master?logo=codecov
-[coverage-url]: https://app.codecov.io/gh/ICIQ-DMP/Digitalization-Dashboard
+[website-dashboard-shield]: https://img.shields.io/website?url=https%3A%2F%2Fechempad.iciq.cat%2Flogin&style=flat-square&logo=icinga&label=eChempad%20website
+[website-dashboard-url]: https://echempad.iciq.cat
+[CD-pipeline-shield]: https://img.shields.io/github/actions/workflow/status/ICIQ-DMP/Digitalization-Dashboard/ci-cd.yml?style=flat-square&logo=docker&label=CI-CD%20pipeline
+[CD-pipeline-url]: https://github.com/ICIQ-DMP/Digitalization-Dashboard/actions/workflows/ci-cd.yml
+[coverage-shield]: https://app.codacy.com/project/badge/Grade/a5219967419a461fb3bf19ef3e20d461
+[coverage-url]: https://app.codacy.com/gh/ICIQ-DMP/Digitalization-Dashboard/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
 
-[Bootstrap-shield]: https://img.shields.io/badge/Bootstrap-4.6.1-white?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
 [JQuery-shield]: https://img.shields.io/badge/jQuery-3.3.1-orange?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
-[postgres-shield]: https://img.shields.io/badge/postgres-42.5.1-blue?style=for-the-badge&logo=postgresql&logoColor=white
-[postgres-url]: https://www.postgresql.org/
-[java-shield]: https://img.shields.io/badge/java-openjdk_1.8.0_352-yellow?style=for-the-badge&logo=oracle&logoColor=white
-[java-url]: https://www.java.com/es/
-[git-shield]: https://img.shields.io/badge/git-2.25.1-black?style=for-the-badge&logo=git
+[sqlite-shield]: https://img.shields.io/badge/sqlite-42.5.1-blue?style=for-the-badge&logo=sqlite&logoColor=white
+[sqlite-url]: https://sqlite.org/
+[git-shield]: https://img.shields.io/badge/git-2.25.1-brown?style=for-the-badge&logo=git
 [git-url]: https://git.com
-[bash-shield]: https://img.shields.io/badge/bash-5.0.17-black?style=for-the-badge&logo=gnubash
+[bash-shield]: https://img.shields.io/badge/bash-5.0.17-darkgreen?style=for-the-badge&logo=gnubash
 [bash-url]: https://www.gnu.org/software/bash/
-[springboot-shield]: https://img.shields.io/badge/springboot-2.5.4-green?style=for-the-badge&logo=spring
-[springboot-url]: https://spring.io/projects/spring-boot
-[spring-shield]: https://img.shields.io/badge/spring_framework-5.3.9-green?style=for-the-badge&logo=spring
-[spring-url]: https://spring.io/
-[zk-shield]: https://img.shields.io/badge/zk-8.6.0.1-purple?style=for-the-badge&logo=zazzle
-[zk-url]: https://www.zkoss.org/
-[hibernate-shield]: https://img.shields.io/badge/hibernate-5.4.32.Final-red?style=for-the-badge&logo=hibernate
-[hibernate-url]: https://www.zkoss.org/
-[jackson-shield]: https://img.shields.io/badge/jackson-2.11.1-brown?style=for-the-badge&logo=json
-[jackson-url]: https://github.com/FasterXML/jackson
-
-
-
-
+[fontawesome-shield]: https://img.shields.io/badge/Font_Awesome-5.15.4-black?style=for-the-badge&logo=fontawesome
+[fontawesome-url]: https://fontawesome.com/
+[docker-shield]: https://img.shields.io/badge/Docker-25.0.3-purple?style=for-the-badge&logo=docker
+[docker-url]: https://docker.com/
+[github-shield]: https://img.shields.io/badge/GitHub_Actions-3.12.4-grey?style=for-the-badge&logo=github-actions
+[github-url]: https://github.com/
+[codacy-shield]: https://img.shields.io/badge/Codacy-1.5.0-pink?style=for-the-badge&logo=codacy
+[codacy-url]: https://codacy.com/
 
 
 
