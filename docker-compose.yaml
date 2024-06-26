@@ -9,6 +9,8 @@ services:
       dockerfile: Dockerfile
     environment:
       - TZ=Europe/London
+      - PUID=1001
+      - GUID=1001
     ports:
       - "0.0.0.0:80:80"
     restart: unless-stopped
