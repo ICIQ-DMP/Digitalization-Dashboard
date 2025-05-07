@@ -1,5 +1,8 @@
 <a name="readme-top"></a>
 
+> [!WARNING] 
+> DEPRECATED IN FAVOR OF [https://iciq.org/research/iciq-open-science/](https://iciq.org/research/iciq-open-science/)
+
 <!-- PROJECT SHIELDS -->
 [![Top language][language-shield]][language-url]
 [![Language count][language-count-shield]][language-count-url]
